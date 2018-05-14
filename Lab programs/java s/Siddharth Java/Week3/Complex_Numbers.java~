@@ -1,0 +1,48 @@
+import java.util.*;
+
+class N1_Complex
+{
+	int a,b;
+	
+	N1_Complex()
+	{
+		a=0;
+		b=0;
+	}
+
+	void display()
+	{
+		System.out.println("Complex number:");
+		if (b>0)
+		{
+			System.out.println(a+" +i"+b);
+		}
+		else if (b<0)
+		{
+			System.out.println(a+" -i"+b);
+		}
+		else
+		{
+			System.out.println(a);
+		}
+	}
+
+	N1_Complex add (N1_Complex obj3)
+	{
+		N1_Complex obj4=new N1_Complex();
+		obj4.a=this.a+obj3.a;
+		obj4.b=this.b+obj3.b;
+	}
+	
+	N1_Complex sub (N1_Complex obj3)
+	{
+		N1_Complex obj5=new N1_Complex();
+		obj5.a=this.a-obj3.a;
+		obj5.b=this.b-obj3.b;
+	}
+}
+
+class N1_Complex_Number_add_sub
+{
+	
+}

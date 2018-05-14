@@ -1,0 +1,4 @@
+Mary is a five year old kid
+She has three sisters
+Copying one file to another
+Using Character Streams
